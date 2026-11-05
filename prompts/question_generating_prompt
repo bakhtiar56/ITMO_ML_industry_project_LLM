@@ -1,0 +1,50 @@
+You are helping build an evaluation set for a chemical safety Q&A assistant.
+The assistant answers questions from warehouse and lab workers using only the
+Safety Data Sheets (SDS) of the chemicals listed below. Each SDS follows the
+standard 16-section format (Identification, Hazards, Composition, First aid,
+Fire-fighting, Accidental release, Handling and storage, Exposure controls/PPE,
+Physical and chemical properties, Stability and reactivity, Toxicology,
+Ecology, Disposal, Transport, Regulatory, Other).
+
+Chemicals in the corpus (name — hazard profile):
+<PASTE chemical_name — hazard_profile LINES FROM sources.csv HERE>
+
+Write 70 candidate questions a real worker might ask. Requirements:
+
+1. Category quotas (approximate):
+   - physical_property (flash point, boiling point, explosion limits, pH,
+     solubility, physical state): 11
+   - ppe (gloves, eye/face protection, respiratory protection): 10
+   - exposure_limit (OSHA PEL, ACGIH TLV, NIOSH IDLH): 7
+   - compatibility (can X be stored near Y; what must X be kept away from): 11
+   - first_aid (eye/skin contact, inhalation, ingestion): 7
+   - fire (extinguishing media, what not to use, combustion products): 6
+   - hazard_id (signal word, hazard classes, carcinogenicity): 6
+   - unanswerable: 12 (see rule 5)
+
+2. Spread questions across all chemicals; no chemical in more than 4 questions.
+
+3. Write the way a busy worker talks: short, informal, sometimes imprecise
+   ("what gloves for caustic soda?", "is it ok to keep acetone by the bleach?").
+   Use common names and synonyms sometimes (caustic soda, bleach, wood alcohol,
+   glacial acetic acid). Vary phrasing; do not start every question the same way.
+
+4. Compatibility questions must pair two chemicals or a chemical with a common
+   substance class. Include these exact safety-critical ones:
+   - "Can I store bleach next to an acid?"
+   - "Can sodium azide be kept near hydrochloric acid?"
+
+5. Unanswerable questions must be things an SDS genuinely does not contain, e.g.:
+   price or supplier stock, shelf life after opening, a chemical NOT in the list,
+   medical dosing or treatment for a specific person, legal/shipping permission
+   in a specific country, comparisons requiring outside data ("which is the
+   safest solvent overall?"), company-specific procedures.
+   Do NOT make "unanswerable" questions that are merely about missing values in
+   an SDS (like a flash point for a solid) — those count as answerable.
+
+6. Do NOT include answers. Do NOT invent facts about the chemicals.
+
+Output format: JSON Lines only, no commentary, one object per line:
+{"question": "...", "chemical": "...", "category": "..."}
+For unanswerable questions about chemicals outside the list, set "chemical" to
+the name used in the question.

@@ -1,0 +1,50 @@
+{"id":1,"question":"What's the flash point of acetone?","chemical":"Acetone","category":"physical_property"}
+{"id":2,"question":"Does methanol mix with water?","chemical":"Methanol","category":"physical_property"}
+{"id":3,"question":"What's the boiling point of absolute ethanol?","chemical":"Ethanol (absolute)","category":"physical_property"}
+{"id":4,"question":"Is isopropanol a liquid at room temperature?","chemical":"Isopropanol","category":"physical_property"}
+{"id":5,"question":"What are the explosive limits for acetonitrile vapor?","chemical":"Acetonitrile","category":"physical_property"}
+{"id":6,"question":"Is hexane soluble in water?","chemical":"Hexane","category":"physical_property"}
+{"id":7,"question":"What's the physical state of dichloromethane at room temperature?","chemical":"Dichloromethane","category":"physical_property"}
+{"id":8,"question":"What's the pH of 37% hydrochloric acid?","chemical":"Hydrochloric acid (37%)","category":"physical_property"}
+{"id":9,"question":"What gloves should I use for acetone?","chemical":"Acetone","category":"ppe"}
+{"id":10,"question":"Do I need a face shield when handling sulfuric acid?","chemical":"Sulfuric acid","category":"ppe"}
+{"id":11,"question":"What kind of respirator is recommended for methanol?","chemical":"Methanol","category":"ppe"}
+{"id":12,"question":"Are regular safety glasses enough for handling nitric acid?","chemical":"Nitric acid (70%)","category":"ppe"}
+{"id":13,"question":"What PPE do I need when working with caustic soda?","chemical":"Sodium hydroxide","category":"ppe"}
+{"id":14,"question":"Do I need respiratory protection for formaldehyde?","chemical":"Formaldehyde (37%)","category":"ppe"}
+{"id":15,"question":"Can I handle acrylamide with nitrile gloves?","chemical":"Acrylamide","category":"ppe"}
+{"id":16,"question":"What's the OSHA PEL for toluene?","chemical":"Toluene","category":"exposure_limit"}
+{"id":17,"question": "what's the OSHA limit for sodium azide dust?", "chemical": "Sodium azide", "category": "exposure_limit"}
+{"id":18,"question":"What's the ACGIH TLV for methanol?","chemical":"Methanol","category":"exposure_limit"}
+{"id":19,"question":"Do we have a NIOSH IDLH value for ammonia solution?","chemical":"Ammonium hydroxide (28%)","category":"exposure_limit"}
+{"id":20,"question":"What's the OSHA exposure limit for chloroform?","chemical":"Chloroform","category":"exposure_limit"}
+{"id":21,"question":"Is there an OSHA PEL for dichloromethane?","chemical":"Dichloromethane","category":"exposure_limit"}
+{"id":22,"question":"Can I store bleach next to an acid?","chemical":"Sodium hypochlorite","category":"compatibility"}
+{"id":23,"question":"Can sodium azide be kept near hydrochloric acid?","chemical":"Sodium azide","category":"compatibility"}
+{"id":24,"question":"Can I keep nitric acid in the same cabinet as ethanol?","chemical":"Nitric acid (70%)","category":"compatibility"}
+{"id":25,"question":"Should sulfuric acid be kept away from sodium hydroxide?","chemical":"Sulfuric acid","category":"compatibility"}
+{"id":26,"question":"Can diethyl ether be stored near oxidizers?","chemical":"Diethyl ether","category":"compatibility"}
+{"id":27,"question":"Does hydrogen peroxide need to be kept away from organic solvents?","chemical":"Hydrogen peroxide (30%)","category":"compatibility"}
+{"id":28,"question":"Should ammonium hydroxide be stored away from acids?","chemical":"Ammonium hydroxide (28%)","category":"compatibility"}
+{"id":29,"question":"I splashed acetone in my eye. What should I do?","chemical":"Acetone","category":"first_aid"}
+{"id":30,"question":"Got sulfuric acid on my skin. What's the first step?","chemical":"Sulfuric acid","category":"first_aid"}
+{"id":31,"question":"Someone breathed in methanol vapor. What does the SDS say to do?","chemical":"Methanol","category":"first_aid"}
+{"id":32,"question":"Formaldehyde splashed into someone's eyes. What now?","chemical":"Formaldehyde (37%)","category":"first_aid"}
+{"id":33,"question":"A coworker inhaled chloroform vapor. What's the first aid?","chemical":"Chloroform","category":"first_aid"}
+{"id":34,"question":"What extinguisher should I use for a diethyl ether fire?","chemical":"Diethyl ether","category":"fire"}
+{"id":35,"question":"Can I use water on a methanol fire?","chemical":"Methanol","category":"fire"}
+{"id":36,"question":"What hazardous fumes can come off burning PVC?","chemical":"PVC","category":"fire"}
+{"id":37,"question":"Is carbon dioxide suitable for an acetone fire?","chemical":"Acetone","category":"fire"}
+{"id":38,"question":"What's the signal word on the SDS for nitric acid?","chemical":"Nitric acid (70%)","category":"hazard_id"}
+{"id":39,"question":"Is chloroform listed as a carcinogen?","chemical":"Chloroform","category":"hazard_id"}
+{"id":40,"question":"What hazard classes are listed for acrylamide?","chemical":"Acrylamide","category":"hazard_id"}
+{"id":41,"question":"Does the SDS classify phenol as acutely toxic?","chemical":"Phenol","category":"hazard_id"}
+{"id":42,"question":"Is hexane classified as a reproductive hazard?","chemical":"Hexane","category":"hazard_id"}
+{"id":43,"question":"What's the current price of 20 liters of acetone?","chemical":"Acetone","category":"unanswerable"}
+{"id":44,"question":"How long can I keep an opened bottle of ethanol before it expires?","chemical":"Ethanol (absolute)","category":"unanswerable"}
+{"id":45,"question":"Which solvent is safest overall for our lab?","chemical":"Acetone","category":"unanswerable"}
+{"id":46,"question":"What dose of methanol antidote should I give my coworker?","chemical":"Methanol","category":"unanswerable"}
+{"id":47,"question":"Can I use the same spill cleanup procedure we use at our warehouse for nitric acid?","chemical":"Nitric acid (70%)","category":"unanswerable"}
+{"id":48,"question":"Can I legally transport 37% hydrochloric acid by car in the Netherlands?","chemical":"Hydrochloric acid (37%)","category":"unanswerable"}
+{"id":49,"question":"Is benzene safer than toluene for our process?","chemical":"Benzene","category":"unanswerable"}
+{"id":50,"question":"What's the recommended treatment for a child who swallowed acetonitrile?","chemical":"Acetonitrile","category":"unanswerable"}
